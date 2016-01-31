@@ -19,7 +19,7 @@ generateProject(_ => {
         _.cmd("cat history.md >> readme.md")
         _.cmd("mkdir -p ./man/man1")
         _.cmd("pandoc -s -f markdown -t man readme.md > ./man/man1/vz-book-cli.1")
-        _.cmd("hub cm 'update docs and history.md'")
+        _.cmd("-hub cm 'update docs and history.md'")
     })
 
     _.collectSeq("all", _ => {
