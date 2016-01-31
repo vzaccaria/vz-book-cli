@@ -7,9 +7,6 @@
     "vz-book-cli": "./index.js"
   },
   "man": "./man/man1/vz-book-cli.1",
-  "scripts": {
-    "test": "make test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vzaccaria/vz-book-cli.git"
