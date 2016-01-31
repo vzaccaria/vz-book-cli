@@ -1,0 +1,47 @@
+{
+  "name": "vz-book-cli",
+  "version": "0.0.1",
+  "description": "No name given yet",
+  "main": "index.js",
+  "bin": {
+    "vz-book-cli": "./index.js"
+  },
+  "man": "./man/man1/vz-book-cli.1",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vzaccaria/vz-book-cli.git"
+  },
+  "author": "Vittorio Zaccaria",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/vzaccaria/vz-book-cli/issues"
+  },
+  "homepage": "https://github.com/vzaccaria/vz-book-cli",
+  "dependencies": {
+    "LiveScript": "^1.3.1",
+    "zaccaria-cli": "*"
+  },
+  "devDependencies": {
+    "diy-build": "^1.0.8",
+    "babel": "^4.7.16",
+    "shelljs": "*",
+    "xyz": "*",
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*",
+    "mustache": "~2.1.2",
+    "stupid-replace": "~0.0.3",
+    "git-hist": "*",
+    "bluebird": "~2.3.10",
+    "debug": "^2.2.0",
+    "docopt": "~0.4.1",
+    "js-yaml": "~3.2.2",
+    "lodash": "~2.4.1",
+    "moment": "~2.8.3",
+    "underscore": "~1.7.0",
+    "underscore.string": "~2.3.3"
+  }
+}
